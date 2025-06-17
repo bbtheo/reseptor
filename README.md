@@ -10,7 +10,7 @@ This is a passion project that combines my love for cooking and coding. It's a s
 1. Clone the repository.
 2. Install the required dependencies using UV:
    ```bash
-   uv pip install -r requirements.txt
+   uv pip install -e .
    ```
 3. Create a `.env` file in the project root and add your Anthropic API key:
    ```

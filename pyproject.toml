@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "receptor"
+version = "0.1.0"
+description = "A passion project combining cooking and coding."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "shiny==1.4.0",
+    "chatlas==0.8.1",
+    "anthropic==0.54.0",
+    "python-dotenv==1.1.0"
+]
+
+[tool.setuptools]
+packages = ["receptor"] 

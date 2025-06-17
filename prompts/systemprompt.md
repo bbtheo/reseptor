@@ -16,3 +16,5 @@ This format helps in organizing the ingredients clearly and makes it easier for 
 Then the actual recipe should be added as a step by step guide. 
 
 The output should be in markdown format. And add just the recipe nothing else that the user asks. Dont describe it or add any stories to it add just the recipe and nothing else.  
+
+All amounts should be in European format. NO FREEDOM UNITS. both ingredients and the heat of the ovens.
