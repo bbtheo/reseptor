@@ -18,7 +18,7 @@ app_ui = ui.page_fluid(
     ui.input_text("user_input", "enter your wish:", width = "100%"),
     ui.input_select("dietary_restrictions", "Dietary Restrictions", 
                     choices={"none": "None", "vegetarian": "Vegetarian", "vegan": "Vegan", 
-                            "gluten_free": "Gluten-Free", "dairy_free": "Dairy-Free"}),
+                            "gluten_free": "Gluten-Free",}),
     ui.input_slider("wildness", "How Wild Should Suggestions Be?", min=1, max=10, value=5),
     ui.input_action_button("send", "Send"),
     ui.output_ui("response")
