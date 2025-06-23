@@ -7,7 +7,7 @@ name = "receptor"
 version = "0.1.0"
 description = "A passion project combining cooking and coding."
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 dependencies = [
     "shiny==1.4.0",
     "chatlas==0.8.1",
